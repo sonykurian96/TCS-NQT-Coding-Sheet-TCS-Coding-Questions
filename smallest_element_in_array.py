@@ -16,4 +16,4 @@ def minimum(array):
     return min(array)
     
 a = [int(x) for x in input("Enter list of numbers ").split()]
-print("minimum value : ",minimum(a))
+print(minimum(a))
